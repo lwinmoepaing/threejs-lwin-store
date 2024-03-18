@@ -85,7 +85,7 @@ const Overlay = () => {
             className="shadow-xl inline-block hover:opacity-80 transition-all px-3 py-[2px] flex justify-center items-center mt-[6px] min-w-[120px] rounded-md text-[14px]"
             style={selectedStyle}
             onClick={() => {
-              toast.success("Comming Soon for Cart Feature");
+              toast.success("Coming Soon for Cart Feature");
             }}
           >
             Buy Now
