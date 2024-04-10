@@ -1,8 +1,6 @@
-import { NextAuthConfig } from "next-auth";
-
 const nextAuthEdgeConfig = {
   trustHost: true,
-  secret: process.env.AUTH_SECRET,
+  secret: "Hello",
   pages: {
     signIn: "/login",
   },
@@ -54,6 +52,6 @@ const nextAuthEdgeConfig = {
       return session;
     },
   },
-} satisfies NextAuthConfig;
+};
 
 export default nextAuthEdgeConfig;
