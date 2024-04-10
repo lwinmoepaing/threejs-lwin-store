@@ -56,7 +56,7 @@ const Overlay = () => {
         </span>
 
         <div>
-          <div className="flex flex-row gap-x-[10px]">
+          {/* <div className="flex flex-row gap-x-[10px]">
             <span
               className={cn(iconClass)}
               style={snap.curSelected === "cup" ? selectedStyle : dynamicStyle}
@@ -80,7 +80,7 @@ const Overlay = () => {
             >
               <FaRedhat />
             </span>
-          </div>
+          </div> */}
           <button
             className="shadow-xl inline-block hover:opacity-80 transition-all px-3 py-[2px] flex justify-center items-center mt-[6px] min-w-[120px] rounded-md text-[14px]"
             style={selectedStyle}

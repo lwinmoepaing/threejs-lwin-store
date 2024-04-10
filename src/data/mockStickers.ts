@@ -12,3 +12,5 @@ export const tShirtStickers = [
 ] as const;
 
 export const preLoadModels = ["shirt_baked_collapsed", "cap", "cup"] as const;
+
+export const preLoadBicycleModels = ["bicycle_compress"] as const;

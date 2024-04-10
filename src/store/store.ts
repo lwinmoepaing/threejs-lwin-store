@@ -3,7 +3,6 @@ import { preLoadModels, tShirtStickers } from "@/data/mockStickers";
 import { proxy } from "valtio";
 
 export interface State {
-  intro: boolean;
   curSelected: "shirt" | "cup" | "cap";
   shirt: {
     color: (typeof colorList)[number];
@@ -11,7 +10,6 @@ export interface State {
   };
 }
 const state = proxy<State>({
-  intro: true,
   curSelected: "shirt",
   shirt: {
     color: "#ccc",

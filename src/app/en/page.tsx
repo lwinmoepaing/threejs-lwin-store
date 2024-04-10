@@ -5,8 +5,8 @@ import Overlay from "@/components/Overlay/Overlay";
 export default function Home() {
   return (
     <main>
-      {/* <BicycleCanvas /> */}
-      <Canvas />
+      <BicycleCanvas />
+      {/* <Canvas /> */}
       <Overlay />
     </main>
   );
